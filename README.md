@@ -20,7 +20,9 @@ Dans l'onglet "Échantillon" saisir les informations de date, auditeur et site
 # Critères de tests
 
 ## Images
-Sur la page à tester : https://www.suzannecollinsbooks.com vérifiez les critères de test suivants :
+Sur la page à tester : https://www.suzannecollinsbooks.com 
+
+Passez les images en revue pur tester les critères de test suivants :
 
 **1.1  Chaque image porteuse d’information a-t-elle une alternative textuelle ?**
 
@@ -37,10 +39,12 @@ De la même façon que pour les images, testez le critère
 **3.1 Dans chaque page web, l’information ne doit pas être donnée uniquement par la couleur. Cette règle est-elle respectée ?**
 
  Installez l'extension WCAG contrast checker
+
  https://chromewebstore.google.com/detail/wcag-color-contrast-check/plnahcmalebffmaghcpcmpaciebdhgdf (Chrome)
+
  https://addons.mozilla.org/en-US/firefox/addon/wcag-contrast-checker/ (Firefox)
 
- Vérifiez les critères :
+ A l'aide de ces extensions vérifiez les critères :
 
 **3.2 Dans chaque page web, le contraste entre la couleur du texte et la couleur de son arrière-plan est-il suffisamment élevé (hors cas particuliers) ?**
 
@@ -48,7 +52,7 @@ De la même façon que pour les images, testez le critère
 
 ## Liens
 
-Vérifiez les critères :
+Vérifiez les critères :suivant en passant en revue l'ensemble des liens hypoertextes visibles sur la page :
  
  **6.1 Chaque lien est-il explicite (hors cas particuliers) ?** en vous appuyant sur les définitions du test 6.1.1
  
@@ -80,6 +84,39 @@ Vérifiez les critères :
 
 **8.6 Pour chaque page web ayant un titre de page, ce titre est-il pertinent ?** 
 
+## Structuration de l'information
+
+ Installez l'extension Headingsmap 
+
+ https://chromewebstore.google.com/detail/headingsmap/flbjommegcjonpdmenkdiocclhjacmbi (Chrome)
+
+https://addons.mozilla.org/fr/firefox/addon/headingsmap/ (Firefox)
+
+A l'aide de l'extension headingsmap testez le critère :
+
+ **9.1 Dans chaque page web, l’information est-elle structurée par l’utilisation appropriée de titres ?** 
+
+<hr>
+Analysez le code source de la page afin d'identifier les zones encapsulées dans des balises `<header>` et `<nav>`
+
+Vérifiez si les zones de navigation sont encapsulées dans des balises `<nav>`
+
+A l'aide de votre analyse testez le critère :
+
+ **9.2 Dans chaque page web, la structure du document est-elle cohérente (hors cas particuliers) ?** 
+<hr>
+ Identifiez les listes présentes dans la page et vérifiez qu'elles sont bien structurés en HTML.
+
+ A l'aide de votre analyse testez le critère :
+
+**9.3 Dans chaque page web, chaque liste est-elle correctement structurée ?**
+<hr>
+
+Identifiez les citationz présentes dans la page et vérifiez qu'elles sont bien structurés en HTML.
+
+ A l'aide de votre analyse testez le critère :
+
+**9.4 Dans chaque page web, chaque citation est-elle correctement indiquée ?**
 
 
 # Conclusions
