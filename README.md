@@ -112,7 +112,7 @@ A l'aide de votre analyse testez le critère :
 **9.3 Dans chaque page web, chaque liste est-elle correctement structurée ?**
 <hr>
 
-Identifiez les citationz présentes dans la page et vérifiez qu'elles sont bien structurés en HTML.
+Identifiez les citations présentes dans la page et vérifiez qu'elles sont bien structurés en HTML.
 
  A l'aide de votre analyse testez le critère :
 
