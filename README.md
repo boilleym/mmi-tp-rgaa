@@ -97,7 +97,7 @@ A l'aide de l'extension headingsmap testez le critère :
  **9.1 Dans chaque page web, l’information est-elle structurée par l’utilisation appropriée de titres ?** 
 
 <hr>
-Analysez le code source de la page afin d'identifier les zones encapsulées dans des balises `<header>` et `<main>`
+Analysez le code source de la page afin d'identifier les zones encapsulées dans des balises **header** et **main**
 
 Vérifiez si les zones de navigation sont encapsulées dans des balises `<nav>`
 
