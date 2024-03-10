@@ -2,8 +2,14 @@
 
 ## Ressources
 
-Site cible
-https://www.suzannecollinsbooks.com
+Exemple de sites cibles
+
+https://www.blogduwebdesign.com/blog/graphisme/affiches-officielles-jo-paris-2024.html
+
+https://monarchiebritannique.com/blog/linstitution/105-ordre-de-succession-au-trone-britannique
+
+https://www.suzannecollinsbooks.com (en)
+
 
 Liste des critères d'accessibilité
 https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests/
@@ -22,7 +28,7 @@ Se positionner sur l'onglet "P1"
 # Critères de tests
 
 ## Images
-Sur la page à tester : https://www.suzannecollinsbooks.com 
+Choisir une page à tester dans la liste ci-dessus.
 
 Passez les images en revue pur tester les critères de test suivants :
 
@@ -30,17 +36,19 @@ Passez les images en revue pur tester les critères de test suivants :
 
 **1.2 Chaque image de décoration est-elle correctement ignorée par les technologies d’assistance ? (en particulier le point 1.2.1)**
 
-Dans la grille d'audit, dans l'onglet "P1" modifiez le statut des deux critères en fonction des résultats du test.
+Pour cela observez le code source de chaque image en vous appuyant sur les attributs "alt" ou "title" de la balise HTML portant l'image.
 
-Si le critère n'est pas conforme, saisir la suggestion de correction dans la colonne "Modification à apporter".
+Dans la grille d'audit, dans l'onglet "P1" modifiez le statut des deux critères en fonction des résultats du test. Il suffit d'une seule image non conforme pour invalider le test.
+
+Si le critère n'est pas conforme, décrire une image non conforme et une suggestion de correction dans la colonne "Modification à apporter".
 
 ## Couleurs
 
-De la même façon que pour les images, testez le critère 
+De la même façon que pour les images, testez le critère suivant en parcourant le contenu de la page :
 
 **3.1 Dans chaque page web, l’information ne doit pas être donnée uniquement par la couleur. Cette règle est-elle respectée ?**
 
- Installez l'extension WCAG contrast checker
+ Ensuite, installez l'extension WCAG contrast checker
 
  https://chromewebstore.google.com/detail/wcag-color-contrast-check/plnahcmalebffmaghcpcmpaciebdhgdf (Chrome)
 
@@ -54,7 +62,7 @@ De la même façon que pour les images, testez le critère
 
 ## Liens
 
-Vérifiez les critères :suivant en passant en revue l'ensemble des liens hypoertextes visibles sur la page :
+Vérifiez les critères suivant en passant en revue l'ensemble des liens hypoertextes visibles sur la page :
  
  **6.1 Chaque lien est-il explicite (hors cas particuliers) ?** en vous appuyant sur les définitions du test 6.1.1
  
@@ -62,7 +70,7 @@ Vérifiez les critères :suivant en passant en revue l'ensemble des liens hypoer
 
 ## Éléments obligatoires
 
-Vérifiez le critère :
+Vérifiez le critère en affichant le code source de la page :
 
 **8.1 Chaque page web est-elle définie par un type de document ?** en vous appuyant sur les tests 8.1.1 à 8.1.3
 
@@ -70,13 +78,13 @@ Vérifiez le critère :
 
 **8.2 Pour chaque page web, le code source généré est-il valide selon le type de document spécifié ?**
 
-Le W3C met à disposition un outil de validation de la norme HTML
+Pour cela, le W3C met à disposition un outil de validation de la norme HTML
 
 https://validator.w3.org/#validate_by_uri
 
 L'outil de validation liste toutes les erreurs de format HTML. Seules certaines erreurs sont pénalisantes pour la validation du critère 8.2. Utilisez la méthodologie du test 8.2.1 pour tester le critère en détail.
 
-Vérifiez les critères :
+Vérifiez les critères suivant en analysant le code source et à l'aide des critères de test de la documentation RGAA4 :
 
 **8.3 Dans chaque page web, la langue par défaut est-elle présente ?**
 
