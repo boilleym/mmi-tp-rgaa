@@ -17,6 +17,8 @@ Téléchargez le fichier de la "Grille d’audit RGAA version 4.1.2" au format O
 
 Dans l'onglet "Échantillon" saisir les informations de date, auditeur et site 
 
+Se positionner sur l'onglet "P1"
+
 # Critères de tests
 
 ## Images
