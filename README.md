@@ -84,13 +84,13 @@ https://validator.w3.org/#validate_by_uri
 
 L'outil de validation liste toutes les erreurs de format HTML. Seules certaines erreurs sont pénalisantes pour la validation du critère 8.2. Utilisez la méthodologie du test 8.2.1 pour tester le critère en détail.
 
-Vérifiez les critères suivant en analysant le code source et à l'aide des critères de test de la documentation RGAA4 :
+Vérifiez les critères suivant en analysant le contenu de la balise `<head>` au début du code source de la page et à l'aide des critères de test de la documentation RGAA4 :
 
 **8.3 Dans chaque page web, la langue par défaut est-elle présente ?**
 
 **8.4 Pour chaque page web ayant une langue par défaut, le code de langue est-il pertinent ?**
 
-**8.5 Chaque page web a-t-elle un titre de page ?**
+**8.5 Chaque page web a-t-elle un titre de page ?** 
 
 **8.6 Pour chaque page web ayant un titre de page, ce titre est-il pertinent ?** 
 
@@ -115,19 +115,46 @@ A l'aide de votre analyse testez le critère :
 
  **9.2 Dans chaque page web, la structure du document est-elle cohérente (hors cas particuliers) ?** 
 <hr>
- Identifiez les listes présentes dans la page et vérifiez qu'elles sont bien structurés en HTML.
+ Identifiez les listes présentes dans la page et vérifiez qu'elles sont bien structurés en HTML à l'aide de l'éditeur de code source.
 
- A l'aide de votre analyse testez le critère :
+ En fonction des résultats de votre analyse validez ou invalidez le critère :
 
 **9.3 Dans chaque page web, chaque liste est-elle correctement structurée ?**
 <hr>
 
-Identifiez les citations présentes dans la page et vérifiez qu'elles sont bien structurés en HTML.
+Identifiez les citations présentes dans la page et vérifiez qu'elles sont bien structurés en HTML à l'aide de l'éditeur de code source.
 
- A l'aide de votre analyse testez le critère :
+En fonction des résultats de votre analyse validez ou invalidez le critère :
 
 **9.4 Dans chaque page web, chaque citation est-elle correctement indiquée ?**
 
+## Présentation de l’information
+
+Utiliser la navigation au clavier (tab et shift+tab) afin de parcourir les éléments d'intéraction de la page (liens, boutons, éléments de formulaires). Chaque élément qui "recoit" le focus clavier doit être graphiquement mis en valeur.
+
+En fonction des résultats de votre analyse validez ou invalidez le critère :
+
+**10.7 Dans chaque page web, pour chaque élément recevant le focus, la prise de focus est-elle visible ?**
+<hr>
+
+Utilisez l'outil de visualisation responsive du navigateur pour afficher le site sur une largeur de 320 pixels. Vériviez qu'il n'y a pas de barre de défilement horizontale.
+
+En fonction des résultats de votre analyse validez ou invalidez le critère :
+
+**10.11 Pour chaque page web, les contenus peuvent-ils être présentés sans perte d’information ou de fonctionnalité et sans avoir recours soit à un défilement horizontal pour une fenêtre ayant une largeur de 320 px (hors cas particuliers) ?**
+
+## Navigation
+
+Identifiez les méthodes de navigation accessibles depuis la page : menu de navigation, plan du site, moteur de recherche.
+
+En fonction du nombre de méthodes disponibles validez ou invalidez le critère :
+
+**12.1 Chaque ensemble de pages dispose-t-il de deux systèmes de navigation différents, au moins (hors cas particuliers) ?**
+<hr>
+
+Une fois les méthodes de navigation identifiées sur la page, naviguez à l'interieur du site et validez ou invalidez le critère :
+
+**12.2 Dans chaque ensemble de pages, le menu et les barres de navigation sont-ils toujours à la même place (hors cas particuliers) ?**
 
 # Conclusions
 
