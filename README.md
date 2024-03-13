@@ -62,7 +62,7 @@ De la même façon que pour les images, testez le critère suivant en parcourant
 
 ## Liens
 
-Vérifiez les critères suivant en passant en revue l'ensemble des liens hypoertextes visibles sur la page :
+Vérifiez les critères suivants en passant en revue l'ensemble des liens hypertextes visibles sur la page :
  
  **6.1 Chaque lien est-il explicite (hors cas particuliers) ?** en vous appuyant sur les définitions du test 6.1.1
  
@@ -70,19 +70,19 @@ Vérifiez les critères suivant en passant en revue l'ensemble des liens hypoert
 
 ## Éléments obligatoires
 
-Vérifiez le critère en affichant le code source de la page :
+Vérifiez le critère en vérifiant les balise du tout début le code source de la page. Aidez vous des détails des tests 8.1.1 à 8.1.3
 
-**8.1 Chaque page web est-elle définie par un type de document ?** en vous appuyant sur les tests 8.1.1 à 8.1.3
+**8.1 Chaque page web est-elle définie par un type de document ?** 
 
-Vérifiez le critère :
+<hr>
 
-**8.2 Pour chaque page web, le code source généré est-il valide selon le type de document spécifié ?**
-
-Pour cela, le W3C met à disposition un outil de validation de la norme HTML
+Faites passer à votre page le test de validation de conformité de code HTML. Pour cela, le W3C met à disposition un outil de validation en ligne :
 
 https://validator.w3.org/#validate_by_uri
 
 L'outil de validation liste toutes les erreurs de format HTML. Seules certaines erreurs sont pénalisantes pour la validation du critère 8.2. Utilisez la méthodologie du test 8.2.1 pour tester le critère en détail.
+**8.2 Pour chaque page web, le code source généré est-il valide selon le type de document spécifié ?**
+<hr>
 
 Vérifiez les critères suivant en analysant le contenu de la balise `<head>` au début du code source de la page et à l'aide des critères de test de la documentation RGAA4 :
 
@@ -155,6 +155,15 @@ En fonction du nombre de méthodes disponibles validez ou invalidez le critère 
 Une fois les méthodes de navigation identifiées sur la page, naviguez à l'interieur du site et validez ou invalidez le critère :
 
 **12.2 Dans chaque ensemble de pages, le menu et les barres de navigation sont-ils toujours à la même place (hors cas particuliers) ?**
+<hr>
+
+Comme pour le test 10.7, passez la page en revue en utilisant le clavier uniquement (tab ou shift + tab). Au début de la page, la navigation clavier doit réveler un menu de raccourcis vers le contenu de la page (c'est ce qu'on appelle un menu d'évitement).
+
+En fonction des résultats de votre analyse validez ou invalidez le critère :
+
+**12.7 Dans chaque page web, un lien d’évitement ou d’accès rapide à la zone de contenu principal est-il présent (hors cas particuliers) ?**
+
+Si vous ne voyez pas de menu d'évitement, essayez de trouver un exemple de site avec un tel menu.
 
 # Conclusions
 
