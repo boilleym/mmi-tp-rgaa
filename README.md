@@ -27,6 +27,9 @@ Se positionner sur l'onglet "P1"
 
 # Critères de tests
 
+> [!IMPORTANT]
+> Le RGAA contient 106 critères mais **seuls les critères listés ci dessous** doivent être testés dans le cadre du TP.
+
 ## Images
 Choisir une page à tester dans la liste ci-dessus.
 
@@ -48,11 +51,15 @@ De la même façon que pour les images, testez le critère suivant en parcourant
 
 **3.1 Dans chaque page web, l’information ne doit pas être donnée uniquement par la couleur. Cette règle est-elle respectée ?**
 
+Pour tester ce critère : 
+
+ + dans Firefox utilisez la console > onglet "accessibilité" > bouton "simuler" > aucune couleur
+ + dans Chrome utilisez la console, menu trois points > plus d'outils > rendering
+
  Ensuite, installez l'extension WCAG contrast checker
 
- https://chromewebstore.google.com/detail/wcag-color-contrast-check/plnahcmalebffmaghcpcmpaciebdhgdf (Chrome)
-
- https://addons.mozilla.org/en-US/firefox/addon/wcag-contrast-checker/ (Firefox)
+ + https://chromewebstore.google.com/detail/wcag-color-contrast-check/plnahcmalebffmaghcpcmpaciebdhgdf (Chrome)
+ + https://addons.mozilla.org/en-US/firefox/addon/wcag-contrast-checker/ (Firefox)
 
  A l'aide de ces extensions vérifiez les critères :
 
@@ -98,18 +105,25 @@ Vérifiez les critères suivant en analysant le contenu de la balise `<head>` au
 
  Installez l'extension Headingsmap 
 
- https://chromewebstore.google.com/detail/headingsmap/flbjommegcjonpdmenkdiocclhjacmbi (Chrome)
-
-https://addons.mozilla.org/fr/firefox/addon/headingsmap/ (Firefox)
++ https://chromewebstore.google.com/detail/headingsmap/flbjommegcjonpdmenkdiocclhjacmbi (Chrome)
++ https://addons.mozilla.org/fr/firefox/addon/headingsmap/ (Firefox)
 
 A l'aide de l'extension headingsmap testez le critère :
 
  **9.1 Dans chaque page web, l’information est-elle structurée par l’utilisation appropriée de titres ?** 
 
 <hr>
-Analysez le code source de la page afin d'identifier les zones encapsulées dans des balises **header** et **main**
+Analysez le code source de la page afin d'identifier que les grandes "structures" de page HTML sont respectées
 
+```
+<header></header>
+<main></main>
+<footer></footer>
+```
+ 
 Vérifiez si les zones de navigation sont encapsulées dans des balises `<nav>`
+
+
 
 A l'aide de votre analyse testez le critère :
 
