@@ -54,7 +54,7 @@ De la même façon que pour les images, testez le critère suivant en parcourant
 Pour tester ce critère : 
 
  + dans Firefox utilisez la console > onglet "accessibilité" > bouton "simuler" > aucune couleur
- + dans Chrome utilisez la console, menu trois points > plus d'outils > rendering
+ + dans Chrome utilisez la console> menu trois points (customize) > plus d'outils > rendering > emulate vision defiencencies > no-color
 
  Ensuite, installez l'extension WCAG contrast checker
 
