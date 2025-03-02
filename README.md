@@ -4,12 +4,7 @@
 
 Exemple de sites cibles
 
-https://www.blogduwebdesign.com/blog/graphisme/affiches-officielles-jo-paris-2024.html
-
-https://monarchiebritannique.com/blog/linstitution/105-ordre-de-succession-au-trone-britannique
-
-https://www.suzannecollinsbooks.com (en)
-
+https://accessibility-luxembourg.github.io/exercices-formation/index.html
 
 Liste des critères d'accessibilité
 https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests/
