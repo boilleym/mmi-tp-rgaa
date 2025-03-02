@@ -66,6 +66,34 @@ Pour tester ce critère vous pouvez émuler la visibilité d'une page en mode "d
 
 **3.3 Dans chaque page web, les couleurs utilisées dans les composants d’interface ou les éléments graphiques porteurs d’informations sont-elles suffisamment contrastées (hors cas particuliers) ?** 
 
+## Multimédia
+
+Identifier la présnece d'une ou plusieurs vidéos dans les pages. Pour chaque vidéo vérifiez les éléments suivants :
+
+Y a t-il des sous titrres, une transcription ou une audiodescription associées à la vidéo ?
+
+**4.1 Chaque média temporel pré-enregistré a-t-il, si nécessaire, une transcription textuelle ou une audiodescription (hors cas particuliers) ?**
+
+**4.3 Chaque média temporel synchronisé pré-enregistré a-t-il, si nécessaire, des sous-titres synchronisés (hors cas particuliers) ?**
+
+Avant ou après la vidéo, y a-t-il un texte ou un titre dans la page annoncant un contenu vidéo ?
+
+**4.7 Chaque média temporel est-il clairement identifiable (hors cas particuliers) ?**
+
+
+## Tableaux
+
+Identifiez la présence d'un ou plusieurs tableaux de données complexes sur le site. Sur chacun de ces tableaux vérifiez les éléments suivants :
+
+ **5.1 Chaque tableau de données complexe a-t-il un résumé ?**
+
+ Vérifiez la structure HTML du tableau, nottament les entêtes pour
+ 
+ **5.8 Pour chaque tableau de données, chaque en-tête de colonne et chaque en-tête de ligne sont-ils correctement déclarés ?**
+ **5.7 Pour chaque tableau de données, la technique appropriée permettant d’associer chaque cellule avec ses en-têtes est-elle utilisée (hors cas particuliers) ?**
+
+
+
 ## Liens
 
 Vérifiez les critères suivants en passant en revue l'ensemble des liens hypertextes visibles sur la page :
@@ -177,6 +205,11 @@ En fonction des résultats de votre analyse validez ou invalidez le critère :
 **12.7 Dans chaque page web, un lien d’évitement ou d’accès rapide à la zone de contenu principal est-il présent (hors cas particuliers) ?**
 
 Si vous ne voyez pas de menu d'évitement, essayez de trouver un exemple de site avec un tel menu.
+
+## Consultation
+Identifier les des contenus de page qui se déplacent ou changent de façon automatique. Peuvent ils être controlés (arretés/redémarrés) par l'utilisateur ? Testez ensuite le critère suivant :
+
+**13.8 Dans chaque page web, chaque contenu en mouvement ou clignotant est-il contrôlable par l’utilisateur ?**
 
 # Conclusions
 
