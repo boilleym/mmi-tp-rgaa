@@ -2,9 +2,11 @@
 
 ## Ressources
 
-Exemple de sites cibles
-
+Le site de test :
 https://accessibility-luxembourg.github.io/exercices-formation/index.html
+
+Dans le cadre du TP les tests d'accessibilités seront effectués sur les pages suivantes du site : page d'accueil, graphiques, données et actualités.
+
 
 Liste des critères d'accessibilité
 https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests/
@@ -34,19 +36,21 @@ Passez les images en revue pur tester les critères de test suivants :
 
 **1.2 Chaque image de décoration est-elle correctement ignorée par les technologies d’assistance ? (en particulier le point 1.2.1)**
 
-Pour cela observez le code source de chaque image en vous appuyant sur les attributs "alt" ou "title" de la balise HTML portant l'image.
+Pour cela observez le code source de chaque image en vous appuyant sur les attributs "alt" ou "title" de la balise HTML portant l'image. Si l'image contient une information utile, cette information doit être également présente dansun attribut "alt" ou "title". Sinon l'image doit avoir un attribut "alt" ou "title" vide.
 
 Dans la grille d'audit, dans l'onglet "P1" modifiez le statut des deux critères en fonction des résultats du test. Il suffit d'une seule image non conforme pour invalider le test.
 
 Si le critère n'est pas conforme, décrire une image non conforme et une suggestion de correction dans la colonne "Modification à apporter".
 
+> Cette démarche est à reproduire ensuite dans tous les tests ci dessous. Pour chaque test, trouver la ligne correspondant au critère, mettre à jour l'état du critère testé (conforme "C", non-conforme "NC" ou non applicable "NA") et en cas de non conformité, décrire l'origine et  l'emplacement de l'erreur (à quel endroit dans quelle page)
+
 ## Couleurs
 
-De la même façon que pour les images, testez le critère suivant en parcourant le contenu de la page :
+De la même façon que pour les images, testez le critère suivant en parcourant le site :
 
 **3.1 Dans chaque page web, l’information ne doit pas être donnée uniquement par la couleur. Cette règle est-elle respectée ?**
 
-Pour tester ce critère : 
+Pour tester ce critère vous pouvez émuler la visibilité d'une page en mode "daltonien": 
 
  + dans Firefox utilisez la console > onglet "accessibilité" > bouton "simuler" > aucune couleur
  + dans Chrome utilisez la console> menu trois points (customize) > plus d'outils > rendering > emulate vision defiencencies > no-color
