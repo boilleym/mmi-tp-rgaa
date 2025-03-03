@@ -89,7 +89,8 @@ Identifiez la présence d'un ou plusieurs tableaux de données complexes sur le 
 
  Vérifiez la structure HTML du tableau, nottament les entêtes pour
  
- **5.8 Pour chaque tableau de données, chaque en-tête de colonne et chaque en-tête de ligne sont-ils correctement déclarés ?**
+ **5.6 Pour chaque tableau de données, chaque en-tête de colonne et chaque en-tête de ligne sont-ils correctement déclarés ?**
+ 
  **5.7 Pour chaque tableau de données, la technique appropriée permettant d’associer chaque cellule avec ses en-têtes est-elle utilisée (hors cas particuliers) ?**
 
 
