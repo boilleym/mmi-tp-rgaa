@@ -68,7 +68,7 @@ Pour tester ce critère vous pouvez émuler la visibilité d'une page en mode "d
 
 ## Multimédia
 
-Identifier la présnece d'une ou plusieurs vidéos dans les pages. Pour chaque vidéo vérifiez les éléments suivants :
+Identifier la présence d'une ou plusieurs vidéos dans les pages. Pour chaque vidéo vérifiez les éléments suivants :
 
 Y a t-il des sous titrres, une transcription ou une audiodescription associées à la vidéo ?
 
