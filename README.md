@@ -5,6 +5,10 @@
 Le site de test :
 https://accessibility-luxembourg.github.io/exercices-formation/index.html
 
+https://tabnav.com/fr/widget-daccessibilite-site-web
+https://tabnav.com/fr/pricing/accessibility-widget
+https://tabnav.com/fr/contact-us
+
 Dans le cadre du TP les tests d'accessibilités seront effectués sur les pages suivantes du site : page d'accueil, graphiques, données et actualités.
 
 
@@ -86,13 +90,16 @@ Avant ou après la vidéo, y a-t-il un texte ou un titre dans la page annoncant 
 Identifiez la présence d'un ou plusieurs tableaux de données complexes sur le site. Sur chacun de ces tableaux vérifiez les éléments suivants :
 
  **5.1 Chaque tableau de données complexe a-t-il un résumé ?**
-
- Vérifiez la structure HTML du tableau, nottament les entêtes pour
  
+ Le tableau a t il une balise <caption> avec un résumé de son contenu ?
+
  **5.6 Pour chaque tableau de données, chaque en-tête de colonne et chaque en-tête de ligne sont-ils correctement déclarés ?**
  
+ Les balises d'entête de lignes et colonnes utilisent une balise <th>
+ 
  **5.7 Pour chaque tableau de données, la technique appropriée permettant d’associer chaque cellule avec ses en-têtes est-elle utilisée (hors cas particuliers) ?**
-
+ 
+Vérifiez l'utilisation, dans les balises <th>,  des attributs scope="row" pour les en-têtes de lignes et scope="col" pour les en-têtes de colonnes. 
 
 
 ## Liens
