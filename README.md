@@ -2,18 +2,16 @@
 
 ## Ressources
 
-Le site de test :
+Dans le cadre du TP les tests d'accessibilités seront effectués sur les pages suivantes du site de démo : page d'accueil, graphiques, actualités et contact :
+
 https://accessibility-luxembourg.github.io/exercices-formation/index.html
 
-Dans le cadre du TP les tests d'accessibilités seront effectués sur les pages suivantes du site : page d'accueil, graphiques, données et actualités.
+https://accessibility-luxembourg.github.io/exercices-formation/actualites.html
 
+https://accessibility-luxembourg.github.io/exercices-formation/graphiques.html
 
+https://accessibility-luxembourg.github.io/exercices-formation/contact.html
 
-https://tabnav.com/fr/widget-daccessibilite-site-web
-
-https://tabnav.com/fr/pricing/accessibility-widget
-
-https://tabnav.com/fr/contact-us
 
 
 
@@ -31,6 +29,8 @@ La colonne validation accepte 3 valeurs possibles :
 NT : non traité (non testable)
 C : conforme (testable et conforme )
 NC : non conforme (testable et non conforme)
+
+Utilisez la colonne de validation pour toutes les pages.
 
 
 # Critères de tests
@@ -198,6 +198,31 @@ Utilisez l'outil de visualisation responsive du navigateur pour afficher le site
 En fonction des résultats de votre analyse validez ou invalidez le critère :
 
 **10.11 Pour chaque page web, les contenus peuvent-ils être présentés sans perte d’information ou de fonctionnalité et sans avoir recours soit à un défilement horizontal pour une fenêtre ayant une largeur de 320 px (hors cas particuliers) ?**
+
+## Formulaires
+
+** 11.1 Chaque champ de formulaire a-t-il une étiquette ? **
+
+Toutes les méthodes suivantes sont valables pour donner un titre à un champ de formulaire :
+
+- Le champ de formulaire possède un attribut *aria-labelledby* référençant un passage de texte identifié ;
+- Le champ de formulaire possède un attribut *aria-label* ;
+- Une balise *<label>* ayant un attribut *for* est associée au champ de formulaire ;
+- Le champ de formulaire possède un attribut *title* ;
+
+** 11.5 Dans chaque formulaire, les champs de même nature sont-ils regroupés, si nécessaire ? **
+
+Les groupes de champ radio ou checkbox utilisés pour une même question doivent être regroupés entre eux à l'aide d'une balise *<fieldset>* ou dans une balise portant un atribbut *role="group"* ;
+
+** 11.10 Dans chaque formulaire, le contrôle de saisie est-il utilisé de manière pertinente (hors cas particuliers) ? **
+
+Un champ obligatoire dispose de l’attribut *aria-required="true"* ou *required* préalablement à la validation du formulaire.
+
+** 11.11 Dans chaque formulaire, le contrôle de saisie est-il accompagné, si nécessaire, de suggestions facilitant la correction des erreurs de saisie ? **
+
+Les champs qui attendent un format particulier comme le mail ou le téléphone affichent bien une indication du format attendu ?
+
+
 
 ## Navigation
 
