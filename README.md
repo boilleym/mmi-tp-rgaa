@@ -5,11 +5,18 @@
 Le site de test :
 https://accessibility-luxembourg.github.io/exercices-formation/index.html
 
+Dans le cadre du TP les tests d'accessibilités seront effectués sur les pages suivantes du site : page d'accueil, graphiques, données et actualités.
+
+
+
 https://tabnav.com/fr/widget-daccessibilite-site-web
+
 https://tabnav.com/fr/pricing/accessibility-widget
+
 https://tabnav.com/fr/contact-us
 
-Dans le cadre du TP les tests d'accessibilités seront effectués sur les pages suivantes du site : page d'accueil, graphiques, données et actualités.
+
+
 
 
 Liste des critères d'accessibilité
