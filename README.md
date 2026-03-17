@@ -22,10 +22,7 @@ https://tabnav.com/fr/contact-us
 Liste des critères d'accessibilité
 https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests/
 
-La grille d'audit est téléchargeable depuis la page Kit d'audit du site RGAA4
-https://accessibilite.numerique.gouv.fr/ressources/kit-audit/
 
-Téléchargez le fichier de la "Grille d’audit RGAA version 4.1.2" au format ODS.
 
 ## Initialiser la grille d'audit
 
