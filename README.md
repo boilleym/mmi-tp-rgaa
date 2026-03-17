@@ -12,10 +12,7 @@ https://accessibility-luxembourg.github.io/exercices-formation/graphiques.html
 
 https://accessibility-luxembourg.github.io/exercices-formation/contact.html
 
-
-
-
-
+-------------
 
 Liste des critères d'accessibilité
 https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests/
