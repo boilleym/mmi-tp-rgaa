@@ -24,11 +24,14 @@ https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests/
 
 
 
-## Initialiser la grille d'audit
+## Completer la grille d'audit
 
-Dans l'onglet "Échantillon" saisir les informations de date, auditeur et site 
+La colonne validation accepte 3 valeurs possibles :
 
-Se positionner sur l'onglet "P1"
+NT : non traité (non testable)
+C : conforme (testable et conforme )
+NC : non conforme (testable et non conforme)
+
 
 # Critères de tests
 
