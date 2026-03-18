@@ -209,7 +209,7 @@ Toutes les méthodes suivantes sont valables pour donner un titre à un champ de
 
 **11.5 Dans chaque formulaire, les champs de même nature sont-ils regroupés, si nécessaire ?**
 
-Les groupes de champ radio ou checkbox utilisés pour une même question doivent être regroupés entre eux à l'aide d'une balise *<fieldset>* ou dans une balise portant un atribbut *role="group"* ;
+Les groupes de champ radio ou checkbox utilisés pour une même question doivent être regroupés entre eux à l'aide d'une balise *fieldset* ou dans une balise portant un atribbut *role="group"* ;
 
 **11.10 Dans chaque formulaire, le contrôle de saisie est-il utilisé de manière pertinente (hors cas particuliers) ?**
 
