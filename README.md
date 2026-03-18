@@ -50,7 +50,7 @@ Dans la grille d'audit, dans l'onglet "P1" modifiez le statut des deux critères
 
 Si le critère n'est pas conforme, décrire une image non conforme et une suggestion de correction dans la colonne "Modification à apporter".
 
-> Cette démarche est à reproduire ensuite dans tous les tests ci dessous. Pour chaque test, trouver la ligne correspondant au critère, mettre à jour l'état du critère testé (conforme "C", non-conforme "NC" ou non applicable "NA") et en cas de non conformité, décrire l'origine et  l'emplacement de l'erreur (à quel endroit dans quelle page)
+> Cette démarche est à reproduire ensuite dans tous les tests ci dessous. Pour chaque test, trouver la ligne correspondant au critère, mettre à jour l'état du critère testé (conforme "C", non-conforme "NC" ou non applicable "NT") et en cas de non conformité, décrire l'origine et  l'emplacement de l'erreur (à quel endroit dans quelle page)
 
 ## Couleurs
 
