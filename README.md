@@ -198,7 +198,7 @@ En fonction des résultats de votre analyse validez ou invalidez le critère :
 
 ## Formulaires
 
-** 11.1 Chaque champ de formulaire a-t-il une étiquette ? **
+**11.1 Chaque champ de formulaire a-t-il une étiquette ?**
 
 Toutes les méthodes suivantes sont valables pour donner un titre à un champ de formulaire :
 
@@ -207,15 +207,15 @@ Toutes les méthodes suivantes sont valables pour donner un titre à un champ de
 - Une balise *<label>* ayant un attribut *for* est associée au champ de formulaire ;
 - Le champ de formulaire possède un attribut *title* ;
 
-** 11.5 Dans chaque formulaire, les champs de même nature sont-ils regroupés, si nécessaire ? **
+**11.5 Dans chaque formulaire, les champs de même nature sont-ils regroupés, si nécessaire ?**
 
 Les groupes de champ radio ou checkbox utilisés pour une même question doivent être regroupés entre eux à l'aide d'une balise *<fieldset>* ou dans une balise portant un atribbut *role="group"* ;
 
-** 11.10 Dans chaque formulaire, le contrôle de saisie est-il utilisé de manière pertinente (hors cas particuliers) ? **
+**11.10 Dans chaque formulaire, le contrôle de saisie est-il utilisé de manière pertinente (hors cas particuliers) ?**
 
 Un champ obligatoire dispose de l’attribut *aria-required="true"* ou *required* préalablement à la validation du formulaire.
 
-** 11.11 Dans chaque formulaire, le contrôle de saisie est-il accompagné, si nécessaire, de suggestions facilitant la correction des erreurs de saisie ? **
+**11.11 Dans chaque formulaire, le contrôle de saisie est-il accompagné, si nécessaire, de suggestions facilitant la correction des erreurs de saisie ?**
 
 Les champs qui attendent un format particulier comme le mail ou le téléphone affichent bien une indication du format attendu ?
 
