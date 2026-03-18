@@ -99,11 +99,11 @@ Identifiez la présence d'un ou plusieurs tableaux de données complexes sur le 
 
  **5.6 Pour chaque tableau de données, chaque en-tête de colonne et chaque en-tête de ligne sont-ils correctement déclarés ?**
  
- Les balises d'entête de lignes et colonnes utilisent une balise <th>
+ Les balises d'entête de lignes et colonnes utilisent une balise *th*
  
  **5.7 Pour chaque tableau de données, la technique appropriée permettant d’associer chaque cellule avec ses en-têtes est-elle utilisée (hors cas particuliers) ?**
  
-Vérifiez l'utilisation, dans les balises <th>,  des attributs scope="row" pour les en-têtes de lignes et scope="col" pour les en-têtes de colonnes. 
+Vérifiez l'utilisation, dans les balises *th*,  des attributs *scope="row"* pour les en-têtes de lignes et *scope="col"* pour les en-têtes de colonnes. 
 
 
 ## Liens
